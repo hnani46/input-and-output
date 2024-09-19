@@ -13,3 +13,17 @@ Age of Dhoni is 35
 ...
 a=int(input())
 print("Age of Dhoni is",a)
+program....
+ 
+def get_dhoni_age():
+    try:
+        # Input age
+        age = int(input("Enter MS Dhoni's age in years: "))
+        print(f"MS Dhoni is {age} years old.")
+    except ValueError:
+        print("Please enter a valid integer.")
+
+get_dhoni_age()
+output....
+ Enter MS Dhoni's age in years: 45
+MS Dhoni is 45 years old.
